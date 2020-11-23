@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+.img-card{
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+}
+
+.name-card{
+    display: block;
+}
+/* .footer-magazine{
+    width: 100%;
+    background-color: salmon;
+    height: 300px;
+} */
+
+
+/* .rating-card{
+    font-size:35px;
+    color: yellow;
+    margin-top: 0;
+} */
+.name-card{
+    white-space: nowrap; /* Отменяем перенос текста */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    
+}
+.price-card{
+    margin-bottom: 18px;
+    color:red;
+    font-size: 30px;
+}
+
+.category-card{
+    margin-bottom: 10px;
+    margin-top:0px;
+    color:gray;
+    text-decoration: underline;
+    
+}
+
+
+.rating-card{
+
+    margin-top: 0px;
+    font-size:30px;
+    color:yellow;
+}
+.price-card{
+    margin-top: 5px;
+
+}
+
+.about-card{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow-y: hidden;
+
+    margin-top: -18px;
+}
+
+.footer_{
+    padding-top: 40px;
+    margin-left:43%;
+    margin-bottom: 140px;
+}
+.input{
+    
+    float: none;
+    margin-left: 80px;
+}
+
+.card{
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 10px 2px grey;
+    margin-left: 50px;
+}
+
+.name-card:hover{
+    color:red;
+}
+
+.img-card:hover{
+    opacity: 0.7;
+}
+.rating-card input{
+    display: none;
+}
+.rating-card{
+    display: inline-block;
+    height: 0px;
+    margin-bottom: 34px;
+    
+}
+.star-rating__ico:hover:before,
+.star-rating__ico:hover ~ .star-rating__ico:before,
+.star-rating__input:checked ~ .star-rating__ico:before
+{
+	content: "\f005";
+}
+
+
+
+#plitka-input:checked ~ .card {
+    height: 460px;
+    width: 250px;
+    float: left;
+
+}
+
+#card-input:checked ~ .card {
+    margin-bottom: 50px;
+    width: 90%;
+}
+
+#card-input:checked ~ .card > {
+    float: right;
+    width: 900px;
+}
+
+.star-rating__ico{
+    float: right;
+}
+
+.star-rating__input{
+    display: none;
+
+}
+
+
+
+
+.star{
+    height: 20px;
+}
+
+
+
+
